@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eazypasswords.com - Next-Generation Password Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/indexStyle.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="spinner"></div>
+        <p>Checking authentication status...</p>
+    </div>
+
+    <!-- Landing Page Content -->
+    <div class="landing-container" id="landingPage">
+        <!-- Header Section -->
+        <header class="landing-header">
+            <div class="logo">
+                <i class="fas fa-lock"></i>
+                <h1>Eazypasswords <span class="early-access-badge">Early Access</span></h1>
+            </div>
+            <p class="tagline">Next-generation password security designed for the modern web. Be among the first to experience the future of password management.</p>
+            <button class="cta-button" id="getStartedBtn">Get Started Now</button>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Security Features Section -->
+            <h2 class="section-title">Why SecurePass is Your Most Secure Choice</h2>
+            <div class="security-features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Military-Grade Encryption</h3>
+                    <p class="feature-description">All your passwords are secured with AES-256 encryption, the same standard used by governments and security experts worldwide.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-fingerprint"></i>
+                    </div>
+                    <h3 class="feature-title">Biometric Authentication</h3>
+                    <p class="feature-description">Access your vault instantly and securely with Face ID, Touch ID, or other biometric authentication methods.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Cross-Device Sync</h3>
+                    <p class="feature-description">Your passwords are securely synced across all your devices, so you always have access when you need it.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="feature-title">Breach Monitoring</h3>
+                    <p class="feature-description">We continuously monitor the dark web and alert you immediately if your passwords appear in data breaches.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3 class="feature-title">Two-Factor Authentication</h3>
+                    <p class="feature-description">Add an extra layer of security with 2FA to ensure only you can access your account, even if someone has your password.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="feature-title">Password Health Checker</h3>
+                    <p class="feature-description">Our security scoring system identifies weak, reused, or compromised passwords and helps you strengthen them.</p>
+                </div>
+            </div>
+
+            <!-- Comparison Section -->
+            <div class="comparison-section">
+                <h3 class="comparison-title">How We Compare to Other Password Managers</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Security Feature</th>
+                            <th>SecurePass</th>
+                            <th>LastPass</th>
+                            <th>1Password</th>
+                            <th>Dashlane</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="feature-name">Zero-Knowledge Architecture</td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">AES-256 Encryption</td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Breach Monitoring</td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="xmark"><i class="fas fa-times"></i></td>
+                            <td class="xmark"><i class="fas fa-times"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Emergency Access</td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="xmark"><i class="fas fa-times"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">QR Code Sharing</td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="xmark"><i class="fas fa-times"></i></td>
+                            <td class="xmark"><i class="fas fa-times"></i></td>
+                            <td class="xmark"><i class="fas fa-times"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Secure Notes</td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Family Sharing</td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Password Import</td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                            <td class="check"><i class="fas fa-check"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Testimonial Section -->
+            <div class="testimonial-section">
+                <h2 class="section-title">Designed With Security Experts</h2>
+                <p class="testimonial">
+                    "SecurePass implements security best practices that many established password managers still struggle with. The zero-knowledge architecture ensures that even the service providers can't access your data, while the intuitive interface makes strong password habits accessible to everyone."
+                </p>
+                <p class="testimonial-author">- Security Researcher, Independent Review</p>
+            </div>
+
+            <!-- Final CTA Section -->
+            <div class="final-cta">
+                <h2>Ready to Experience Next-Gen Security?</h2>
+                <p>Join our early access program and help shape the future of password management.</p>
+                <button class="cta-button" id="finalCtaBtn">Start Your Secure Journey</button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="landing-footer">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Security</a>
+                    <a href="#" class="footer-link">Support</a>
+                </div>
+                <p class="copyright">© 2025 eazypasswords. All rights reserved. Currently in Early Access.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/indexapp.js"></script>
+</body>
+</html>
