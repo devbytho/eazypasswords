@@ -561,7 +561,6 @@ async function loadSharingCenterContent(userPlan) {
                                     <div class="password-username">Shared with: ${share.shared_with_name}</div>
                                 </div>
                                 <div class="password-actions">
-                                    <!-- 👇 THIS IS THE FIX 👇 -->
                                     <button class="action-btn view-password" data-id="${share.password_id}">
                                         <i class="fas fa-eye"></i>
                                     </button>
@@ -570,8 +569,7 @@ async function loadSharingCenterContent(userPlan) {
                                     </button>
                                             <button class="action-btn" data-action="revokeShare" data-arg="${share.id}" title="Revoke Share">
                                                 <i class="fas fa-times"></i>
-                                            </button>
-                                    <!-- 👆 END OF FIX 👆 -->
+                                            </button>>
                                 </div>
                             </div>
                         `).join('')}
@@ -4675,4 +4673,5 @@ async function submitClaimInvite() {
         btn.innerHTML = originalText;
         btn.disabled = false;
     }
+
 }
